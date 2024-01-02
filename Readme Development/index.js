@@ -7,8 +7,8 @@ inquirer
   .prompt([
     {
       type: 'input',
-      message: 'Project name',
-      name: 'name',
+      message: 'Readme Heading',
+      name: 'Your Name',
     },
     {
       type: 'input',
@@ -22,8 +22,8 @@ inquirer
     },
     {
       type: 'input',
-      message: 'YouTube Video ID? (optional)',
-      name: 'youtube_id',
+      message: 'Your ID? (optional)',
+      name: 'Requred',
     },
     {
       type: 'input',
@@ -39,19 +39,19 @@ inquirer
       type: 'input',
       message: 'Your Full Name?',
       name: 'author',
-      default: 'Pierre-Henry Soria',
+      default: 'Mr Sheikh Ali',
     },
     {
       type: 'input',
       message: 'Your Email? (also used for gravatar profile photo)',
       name: 'email',
-      default: 'hi@ph7.me',
+      default: 'info@example.com',
     },
     {
       type: 'input',
       message: 'Your Twitter username?',
       name: 'twitter',
-      default: 'phenrysay',
+      default: '------ by deafult',
     },
     {
       type: 'input',
@@ -63,7 +63,7 @@ inquirer
       type: 'input',
       message: 'GitHu account?',
       name: 'github',
-      default: 'pH-7',
+      default: 'mirpur33',
     },
     {
       type: 'list',
