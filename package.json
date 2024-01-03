@@ -2,14 +2,17 @@
   "dependencies": {
     "inquirer": "^9.2.12"
   },
-  "name": "module-11-challenge",
+  "name": "y",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sheikh Ali",
   "license": "ISC",
-  "description": "For Readme Generator"
+  "description": "For Readme Generator",
+  "repository": {
+    "type": "git",
+    "url": "mirpur33"
+  }
 }
